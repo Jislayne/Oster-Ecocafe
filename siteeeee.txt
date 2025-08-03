@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oster EcoCafé - Logística Reversa</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+        Cantarell, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 100px 20px 40px;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+      max-width: 600px;
+      margin: 10px auto 20px;
+    }
+    header a {
+      display: inline-block;
+      margin-top: 15px;
+      font-size: 1.1rem;
+      color: #00704A;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    header a:hover {
+      text-decoration: underline;
+    }
+    /* Imagem removida conforme solicitado */
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 20px;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    section p {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+      color: #555;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .step {
+      padding: 20px;
+      border-radius: 15px;
+      background-color: #f9f9f9;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+    .step h3 {
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+      color: #00704A;
+    }
+    .benefits ul {
+      list-style: none;
+      padding: 0;
+    }
+    .benefits li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+      color: #444;
+    }
+    .highlight {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-top: 40px;
+      color: #00704A;
+    }
+    form {
+      max-width: 500px;
+      margin: 40px auto;
+      text-align: left;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+    form label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+    form input,
+    form select,
+    form button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+    form button {
+      background-color: #00704A;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    form button:hover {
+      background-color: #005d3d;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #f3f3f3;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    /* Ajuste extra para telas pequenas */
+    @media (max-width: 320px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section {
+        padding: 10px;
+      }
+      form {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Reciclar produtos Oster</h1>
+    <p>
+      Você pode não usar mais sua cafeteira, mas ela ainda tem muito a oferecer. A Oster ajuda a
+      realizar a devolução gratuita para reaproveitamento ou reciclagem, recuperando materiais
+      valiosos e reduzindo o impacto ambiental.
+    </p>
+    <a href="#comecar">Começar agora ›</a>
+  </header>
+
+  <section id="comecar">
+    <h2>Como funciona a logística reversa</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>1. Devolução fácil</h3>
+        <p>
+          Leve sua cafeteira usada até uma loja parceira ou solicite a coleta gratuita em sua
+          casa. Sem taxas, sem burocracia.
+        </p>
+      </div>
+      <div class="step">
+        <h3>2. Triagem responsável</h3>
+        <p>
+          As cafeteiras são desmontadas com cuidado: peças boas são reaprovei
